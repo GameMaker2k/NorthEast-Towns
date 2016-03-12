@@ -4,10 +4,10 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
+    0 * 4	 24 00 00 00
 
-0 * 4 \d36 
 
-1 * 107 14 "C" "INFO" 
+    1 * 107	 14 "C" "INFO" 
 "T" "URL_" 7F "https://github.com/GameMaker2k/NorthEast-Towns" 00 
 "B" "VRSN" \w4 \dx00000002 
 "B" "MINV" \w4 \dx00000001 
@@ -16,8 +16,8 @@
 "B" "BLTR" \w1 "8" 
 00 
 00 
-2 * 87 08 08 "JTP\01" "Northeastern Town Names v1.2" 00 "\8ECity names from the northeastern region of the us." 00 
-3 * 2165 0F 00 	// **townname #1**
+    2 * 87	 08 08 "JTP\01" "Northeastern Town Names v1.2" 00 "\8ECity names from the northeastern region of the us." 00 
+    3 * 2165	 0F 00 	// **townname #1**
 01 B2 00 08 01 "Yorktown" 00 
 01 "Wyckoff" 00 
 01 "Woodlawn" 00 
@@ -198,7 +198,7 @@
 01 "Albany" 00 
 
 
-4 * 2200 0F 01 	// **townname #2**
+    4 * 2200	 0F 01 	// **townname #2**
 01 B2 00 08 01 "Yorkshire" 00 
 01 "Wyano" 00 
 01 "Woodland Park" 00 
@@ -379,7 +379,7 @@
 01 "Alabama" 00 
 
 
-5 * 2198 0F 02 	// **townname #3**
+    5 * 2198	 0F 02 	// **townname #3**
 01 B2 00 08 01 "York Springs" 00 
 01 "Wrightsville" 00 
 01 "Woodhull" 00 
@@ -560,7 +560,7 @@
 01 "Agawam" 00 
 
 
-6 * 2173 0F 03 	// **townname #4**
+    6 * 2173	 0F 03 	// **townname #4**
 01 B2 00 08 01 "York" 00 
 01 "Woxhall" 00 
 01 "Woodbury Center" 00 
@@ -741,7 +741,7 @@
 01 "Addison (Webster Springs)" 00 
 
 
-7 * 2159 0F 04 	// **townname #5**
+    7 * 2159	 0F 04 	// **townname #5**
 01 B2 00 08 01 "Yorklyn" 00 
 01 "Wyandanch" 00 
 01 "Woodland Heights" 00 
@@ -922,7 +922,7 @@
 01 "Akron" 00 
 
 
-8 * 2042 0F 05 	// **townname #6**
+    8 * 2042	 0F 05 	// **townname #6**
 01 B2 00 08 01 "Yarmouth Port" 00 
 01 "Woodville" 00 
 01 "Womelsdorf" 00 
@@ -1103,7 +1103,7 @@
 01 "Acton" 00 
 
 
-9 * 2090 0F 06 	// **townname #7**
+    9 * 2090	 0F 06 	// **townname #7**
 01 B2 00 08 01 "York Haven" 00 
 01 "Wrightstown" 00 
 01 "Woodford" 00 
@@ -1284,7 +1284,7 @@
 01 "Afton" 00 
 
 
-10 * 2165 0F 07 	// **townname #8**
+   10 * 2165	 0F 07 	// **townname #8**
 01 B2 00 08 01 "Yogaville" 00 
 01 "Worthington" 00 
 01 "Woodburn" 00 
@@ -1465,7 +1465,7 @@
 01 "Adamstown" 00 
 
 
-11 * 2130 0F 08 	// **townname #9**
+   11 * 2130	 0F 08 	// **townname #9**
 01 B2 00 08 01 "Yoe" 00 
 01 "Worth" 00 
 01 "Woodbridge" 00 
@@ -1646,7 +1646,7 @@
 01 "Adams Center" 00 
 
 
-12 * 2224 0F 09 	// **townname #10**
+   12 * 2224	 0F 09 	// **townname #10**
 01 B2 00 08 01 "Yorketown" 00 
 01 "Wyalusing" 00 
 01 "Woodland" 00 
@@ -1827,7 +1827,7 @@
 01 "Airmont" 00 
 
 
-13 * 2171 0F 0A 	// **townname #11**
+   13 * 2171	 0F 0A 	// **townname #11**
 01 B2 00 08 01 "Yorkana" 00 
 01 "Wurtsboro" 00 
 01 "Woodlake" 00 
@@ -2008,7 +2008,7 @@
 01 "Agawam Town" 00 
 
 
-14 * 2201 0F 0B 	// **townname #12**
+   14 * 2201	 0F 0B 	// **townname #12**
 01 B2 00 08 01 "Yardville-Groveville" 00 
 01 "Woodstown" 00 
 01 "Wolfdale" 00 
@@ -2189,7 +2189,7 @@
 01 "Accoville" 00 
 
 
-15 * 2164 0F 0C 	// **townname #13**
+   15 * 2164	 0F 0C 	// **townname #13**
 01 B2 00 08 01 "Yardville" 00 
 01 "Woodstock" 00 
 01 "Wolf Trap" 00 
@@ -2370,7 +2370,7 @@
 01 "Accord" 00 
 
 
-16 * 2082 0F 0D 	// **townname #14**
+   16 * 2082	 0F 0D 	// **townname #14**
 01 B2 00 08 01 "York Harbor" 00 
 01 "Wright" 00 
 01 "Woodcliff Lake" 00 
@@ -2551,7 +2551,7 @@
 01 "Adwolf" 00 
 
 
-17 * 2136 0F 0E 	// **townname #15**
+   17 * 2136	 0F 0E 	// **townname #15**
 01 B2 00 08 01 "York Hamlet" 00 
 01 "Wrentham" 00 
 01 "Woodbury Heights" 00 
@@ -2732,7 +2732,7 @@
 01 "Adelphi" 00 
 
 
-18 * 2118 0F 0F 	// **townname #16**
+   18 * 2118	 0F 0F 	// **townname #16**
 01 B2 00 08 01 "Yatesville" 00 
 01 "Woonsocket" 00 
 01 "Wood-Ridge" 00 
@@ -2913,7 +2913,7 @@
 01 "Acushnet Center" 00 
 
 
-19 * 2151 0F 10 	// **townname #17**
+   19 * 2151	 0F 10 	// **townname #17**
 01 B2 00 08 01 "Yates" 00 
 01 "Woolwich" 00 
 01 "Womelsdorf (Coalton)" 00 
@@ -3094,7 +3094,7 @@
 01 "Acushnet" 00 
 
 
-20 * 2112 0F 11 	// **townname #18**
+   20 * 2112	 0F 11 	// **townname #18**
 01 B3 00 08 01 "Zelienople" 00 
 01 "Wyomissing" 00 
 01 "Woods Hole" 00 
@@ -3276,7 +3276,7 @@
 01 "Abington" 00 
 
 
-21 * 2158 0F 12 	// **townname #19**
+   21 * 2158	 0F 12 	// **townname #19**
 01 B3 00 08 01 "Youngwood" 00 
 01 "Wyndmoor" 00 
 01 "Woodmore" 00 
@@ -3458,7 +3458,7 @@
 01 "Aberdeen Proving Ground" 00 
 
 
-22 * 2151 0F 13 	// **townname #20**
+   22 * 2151	 0F 13 	// **townname #20**
 01 B3 00 08 01 "Youngsville" 00 
 01 "Wyndham" 00 
 01 "Woodmont" 00 
@@ -3640,7 +3640,7 @@
 01 "Aberdeen" 00 
 
 
-23 * 2186 0F 14 	// **townname #21**
+   23 * 2186	 0F 14 	// **townname #21**
 01 B2 00 08 01 "Yeagertown" 00 
 01 "Wormleysburg" 00 
 01 "Woodbourne" 00 
@@ -3821,7 +3821,7 @@
 01 "Adams" 00 
 
 
-24 * 2192 0F 15 	// **townname #22**
+   24 * 2192	 0F 15 	// **townname #22**
 01 B2 00 08 01 "Yonkers" 00 
 01 "Worton" 00 
 01 "Woodbury" 00 
@@ -4002,7 +4002,7 @@
 01 "Addison" 00 
 
 
-25 * 2089 0F 16 	// **townname #23**
+   25 * 2089	 0F 16 	// **townname #23**
 01 B2 00 08 01 "Yeadon" 00 
 01 "Worcester" 00 
 01 "Woodbine" 00 
@@ -4183,7 +4183,7 @@
 01 "Acworth" 00 
 
 
-26 * 2190 0F 17 	// **townname #24**
+   26 * 2190	 0F 17 	// **townname #24**
 01 B3 00 08 01 "Zihlman" 00 
 01 "Wytheville" 00 
 01 "Woodsburgh" 00 
@@ -4365,7 +4365,7 @@
 01 "Accident" 00 
 
 
-27 * 2124 0F 18 	// **townname #25**
+   27 * 2124	 0F 18 	// **townname #25**
 01 B3 00 08 01 "Zena" 00 
 01 "Wyomissing Hills" 00 
 01 "Woodsboro" 00 
@@ -4547,7 +4547,7 @@
 01 "Absecon" 00 
 
 
-28 * 2249 0F 19 	// **townname #26**
+   28 * 2249	 0F 19 	// **townname #26**
 01 B3 00 08 01 "Yukon" 00 
 01 "Wyoming" 00 
 01 "Woodridge" 00 
@@ -4729,7 +4729,7 @@
 01 "Abingdon" 00 
 
 
-29 * 2128 0F 1A 	// **townname #27**
+   29 * 2128	 0F 1A 	// **townname #27**
 01 B3 00 08 01 "Youngstown" 00 
 01 "Wyncote" 00 
 01 "Woodmere" 00 
@@ -4911,7 +4911,7 @@
 01 "Abbottstown" 00 
 
 
-30 * 2150 0F 1B 	// **townname #28**
+   30 * 2150	 0F 1B 	// **townname #28**
 01 B3 00 08 01 "Yorkville" 00 
 01 "Wynantskill" 00 
 01 "Woodlynne" 00 
@@ -5093,7 +5093,7 @@
 01 "Abbot" 00 
 
 
-31 * 2170 0F 1C 	// **townname #29**
+   31 * 2170	 0F 1C 	// **townname #29**
 01 B2 00 08 01 "Yardley" 00 
 01 "Woodside East" 00 
 01 "Wolf Summit" 00 
@@ -5274,7 +5274,7 @@
 01 "Accomac" 00 
 
 
-32 * 2207 0F 1D 	// **townname #30**
+   32 * 2207	 0F 1D 	// **townname #30**
 01 B2 00 08 01 "Yarmouth" 00 
 01 "Woodsville" 00 
 01 "Wolfeboro" 00 
@@ -5455,7 +5455,7 @@
 01 "Ackermanville" 00 
 
 
-33 * 2245 0F 1E 	// **townname #31**
+   33 * 2245	 0F 1E 	// **townname #31**
 01 B3 00 08 01 "Zion" 00 
 01 "Yaphank" 00 
 01 "Woodside" 00 
@@ -5637,7 +5637,7 @@
 01 "Accokeek" 00 
 
 
-34 * 2244 0F 1F 	// **townname #32**
+   34 * 2244	 0F 1F 	// **townname #32**
 01 B3 00 08 01 "Yorktown Heights" 00 
 01 "Wylandville" 00 
 01 "Woodlyn" 00 
@@ -5819,7 +5819,7 @@
 01 "Aaronsburg" 00 
 
 
-35 * 70 0F 20 	// NEC_TOWNS
+   35 * 70	 0F 20 	// NEC_TOWNS
 01 20 08 05 81 00 
 81 01 
 81 02 
@@ -5854,7 +5854,7 @@
 81 1F 
 
 
-36 * 27 0F A1 
+   36 * 27	 0F A1 
 7F "Northeastern USA" 00 
 00 
 01 01 0D 01 81 20 
